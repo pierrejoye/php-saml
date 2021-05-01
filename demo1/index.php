@@ -41,10 +41,10 @@ if (isset($_GET['sso'])) {
         $nameIdFormat = $_SESSION['samlNameIdFormat'];
     }
     if (isset($_SESSION['samlNameIdNameQualifier'])) {
-        $nameIdNameQualifier = $_SESSION['samlNameIdNameQualifier'];
+        $samlNameIdNameQualifier = $_SESSION['samlNameIdNameQualifier'];
     }
     if (isset($_SESSION['samlNameIdSPNameQualifier'])) {
-        $nameIdSPNameQualifier = $_SESSION['samlNameIdSPNameQualifier'];
+        $samlNameIdSPNameQualifier = $_SESSION['samlNameIdSPNameQualifier'];
     }
     if (isset($_SESSION['samlSessionIndex'])) {
         $sessionIndex = $_SESSION['samlSessionIndex'];
